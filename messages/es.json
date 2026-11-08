@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Hogar",
+    "about": "Acerca de",
+    "skills": "Habilidades",
+    "resume": "Reanudar",
+    "toggleNav": "Alternar navegación",
+    "logoAltText": "Logotipo de la página de inicio"
+  },
+  "footer": {
+    "createdAndMaintained": "Creado y mantenido por Garrett Abou-Zeid",
+    "copyrightNotice": "© Garrett Abou-Zeid. Reservados todos los derechos.",
+    "emailScreenReader": "Envíame un correo electrónico",
+    "githubScreenReader": "Visita mi página de Github",
+    "linkedinScreenReader": "Visita mi página de LinkedIn"
+  },
+  "home": {
+    "title": "Garrett Abou\u2011Zeid",
+    "subTitle": "Ingeniero de software | Solucionador de problemas | Aprendiz permanente"
+  },
+  "about": {
+    "picture1Alt": "Foto de Garrett",
+    "section1Title": "¿Quién soy <highlight>yo</highlight>?",
+    "section1Description1": "Mi nombre es <highlight>Garrett Abou-Zeid</highlight>, soy del área metropolitana de Twin Cities en Minnesota. Mi interés en el desarrollo de software aumentó cuando vi a mi madre desarrollar aplicaciones móviles. Tomé mi primera clase de programación en mi último año de secundaria y quedé enganchado al instante.",
+    "section1Description2": "Me gradué de la <university>Universidad de Minnesota Twin Cities</university> en la primavera de 2023 con una licenciatura en <degree>Ciencias de la Computación</degree>. He trabajado profesionalmente como <role>Ingeniero Frontend</role> y he desarrollado habilidades competentes en:",
+    "skill1": "React.js",
+    "skill2": "JavaScript",
+    "skill3": "CSS",
+    "expertiseIn": "Además de experiencia desarrollada en:",
+    "skill4": "Diseño web responsivo",
+    "skill5": "Diseño de interfaz de usuario",
+    "skill6": "Experiencia de usuario",
+    "section2Title": "En mi tiempo libre...",
+    "section2Description1": "Mi principal forma de actividad física es el <highlight>búlder</highlight>:",
+    "section2Description1Subitem1": "Sube en el rango V4 a V6",
+    "section2Description1Subitem2": "Participó en una competencia de escalada comunitaria.",
+    "section2Description2": "Formo equipo con mis amigos en una liga de <highlight>bolos</highlight>:",
+    "section2Description2Subitem1": "Juego alto de 276 bolos lanzados (7 golpes seguidos)",
+    "section2Description3": "Participo en <highlight>eventos de resistencia</highlight>:",
+    "section2Description3Subitem1": "Tough Mudder 15k",
+    "section2Description3Subitem2": "Triatlón Sprint",
+    "picture2Alt": "Imagen de Garrett escalando"
+  },
+  "skills": {
+    "languages": "Idiomas",
+    "librariesAndFrameworks": "Bibliotecas y frameworks",
+    "testingAndQa": "Pruebas y control de calidad",
+    "tools": "Herramientas e infraestructura para desarrolladores",
+    "logoText": {
+      "js": "Logotipo de JavaScript",
+      "ts": "Logotipo de TypeScript",
+      "html": "Logotipo de HTML",
+      "css": "Logotipo de CSS",
+      "python": "Logotipo de Python",
+      "react": "Logotipo de React.js",
+      "jest": "Logotipo de Jest",
+      "git": "Logotipo de Git",
+      "aws": "Logotipo de AWS",
+      "snyk": "Logotipo de Snyk",
+      "datadog": "Logotipo de DataDog",
+      "selenium": "Logotipo de Selenium",
+      "cypress": "Logotipo de Cypress",
+      "playwright": "Logotipo de PlayWright",
+      "saucelabs": "Logotipo de Sauce Labs",
+      "kiro": "Logotipo de Kiro",
+      "nextJs": "Logotipo de Next.js",
+      "tailwind": "Logotipo de Tailwind CSS"
+    }
+  }
+}

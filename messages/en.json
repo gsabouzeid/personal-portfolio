@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "resume": "Resume",
+    "toggleNav": "Toggle Navigation",
+    "logoAltText": "Home Page Logo"
+  },
+  "footer": {
+    "createdAndMaintained": "Created and Maintained by Garrett Abou-Zeid",
+    "copyrightNotice": "© Garrett Abou-Zeid. All rights reserved.",
+    "emailScreenReader": "Email me",
+    "githubScreenReader": "Vist my Github page",
+    "linkedinScreenReader": "Visit my LinkedIn page"
+  },
+  "home": {
+    "title": "Garrett Abou\u2011Zeid",
+    "subTitle": "Software Engineer | Problem Solver | Lifelong Learner"
+  },
+  "about": {
+    "picture1Alt": "Picture of Garrett",
+    "section1Title": "Who am <highlight>I</highlight>?",
+    "section1Description1": "My name is <highlight>Garrett Abou-Zeid</highlight>, I am from the greater Twin Cities area in Minnesota. I grew interest in software development when I watched my mom develop mobile apps. I took my first programming class my senior year of high school and was instantly hooked.",
+    "section1Description2": "I graduated from the <university>University of Minnesota Twin Cities</university> in Spring 2023 with a Bachelor of Science degree in <degree>Computer Science</degree>. I have been working professionally as a <role>Frontend Engineer</role> and have developed proficient skills in:",
+    "skill1": "React.js",
+    "skill2": "JavaScript",
+    "skill3": "CSS",
+    "expertiseIn": "As well as developed expertise in:",
+    "skill4": "Responsive Web Design",
+    "skill5": "User Interface Design",
+    "skill6": "User Experience",
+    "section2Title": "In my freetime...",
+    "section2Description1": "My main form of physical activity is <highlight>bouldering</highlight>:",
+    "section2Description1Subitem1": "Climb in the V4 to V6 range",
+    "section2Description1Subitem2": "Participated in a community climbing competition",
+    "section2Description2": "I Team up with my friends in a <highlight>bowling</highlight> league:",
+    "section2Description2Subitem1": "High game of 276 pins bowled (7 strikes in a row)",
+    "section2Description3": "I Participate in <highlight>endurance events</highlight>:",
+    "section2Description3Subitem1": "Tough Mudder 15k",
+    "section2Description3Subitem2": "Sprint Triathlon",
+    "picture2Alt": "Picture of Garrett Climbing"
+  },
+  "skills": {
+    "languages": "Languages",
+    "librariesAndFrameworks": "Libraries & Frameworks",
+    "testingAndQa": "Testing & QA",
+    "tools": "Developer Tools & Infrastructure",
+    "logoText": {
+      "js": "JavaScript Logo",
+      "ts": "TypeScript Logo",
+      "html": "HTML Logo",
+      "css": "CSS Logo",
+      "python": "Python Logo",
+      "react": "React.js Logo",
+      "jest": "Jest Logo",
+      "git": "Git Logo",
+      "aws": "AWS Logo",
+      "snyk": "Snyk Logo",
+      "datadog": "Datadog Logo",
+      "selenium": "Selenium Logo",
+      "cypress": "Cypress Logo",
+      "playwright": "Playwright Logo",
+      "saucelabs": "Sauce Labs Logo",
+      "kiro": "Kiro Logo",
+      "nextJs": "Next.js Logo",
+      "tailwind": "Tailwind CSS Logo"
+    }
+  }
+}

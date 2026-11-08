@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-fade-in-top: fadeInFromTop 0.5s ease-out forwards;
+
+  @keyframes fadeInFromTop {
+    0% {
+      transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #07232e;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
