@@ -7,6 +7,8 @@ import "../index.css";
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
   title: "Garrett's Portfolio",
+  description:
+    "Software developer specializing in frontend engineering. View my portfolio to learn about myself and my skills.",
 };
 
 // eslint-disable-next-line react-refresh/only-export-components

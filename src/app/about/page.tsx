@@ -1,5 +1,13 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+
+// eslint-disable-next-line react-refresh/only-export-components
+export const metadata: Metadata = {
+  title: "About",
+  description:
+    "Learn more about Garrett, a software developer specializing in frontend engineering. Discover his background, skills, and interests.",
+};
 
 export default function Page() {
   const t = useTranslations("about");

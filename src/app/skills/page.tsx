@@ -1,6 +1,14 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import SkillPill from "../../components/skills/skill-pill";
 import { SKILLS } from "../../constants";
+
+// eslint-disable-next-line react-refresh/only-export-components
+export const metadata: Metadata = {
+  title: "Skills",
+  description:
+    "Explore Garrett's skills in programming languages, libraries, frameworks, testing, and tools. Discover his expertise and proficiency in various technologies.",
+};
 
 export default function Page() {
   const t = useTranslations();
