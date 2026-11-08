@@ -64,7 +64,7 @@ export const SKILLS: Skills = {
     {
       name: "Next.js",
       image: {
-        src: "nextJs-icon.svg",
+        src: "nextjs-icon.svg",
         altText: "skills.logoText.nextJs",
       },
     },
