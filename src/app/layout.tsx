@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import AOSInit from "../components/aos-init";
@@ -37,6 +38,7 @@ export default function RootLayout({
         <div id="root">
           <AOSInit />
           <Analytics />
+          <SpeedInsights />
           <NextIntlClientProvider>
             <SiteShell>{children}</SiteShell>
           </NextIntlClientProvider>
