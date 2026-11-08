@@ -66,5 +66,12 @@
       "nextJs": "Next.js Logo",
       "tailwind": "Tailwind CSS Logo"
     }
+  },
+  "notFound": {
+    "404": "404",
+    "notFound": "Oops! Page Not Found",
+    "click": "Click",
+    "here": "here",
+    "toReturn": "to return home."
   }
 }
