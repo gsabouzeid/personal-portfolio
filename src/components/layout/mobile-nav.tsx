@@ -58,10 +58,11 @@ const MobileNav = ({ toggleNav, onDismissToggle }: MobileNavProps) => {
           </div>
         </Link>
         <a
-          href={"./resume.pdf"}
-          download="garrett-abouzeid-resume.pdf"
-          onClick={handleNavClick}
           className="hover:bg-cyan-800 active:bg-cyan-700"
+          href="./garrett-abouzeid-resume.pdf"
+          target="_blank"
+          rel="noopener"
+          onClick={handleNavClick}
         >
           <div className="flex items-center justify-center gap-2.5 p-2.5">
             <LinkIcon />

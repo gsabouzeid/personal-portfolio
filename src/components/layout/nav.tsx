@@ -61,8 +61,9 @@ const Nav = ({ onToggleNav }: NavProps) => {
         </Link>
         <a
           className="resumeLink relative mb-1.25 rounded-xl border-2 p-2.5 text-sky-400 hover:text-sky-300 active:top-1"
-          href={"./resume.pdf"}
-          download="garrett-abouzeid-resume.pdf"
+          href="./garrett-abouzeid-resume.pdf"
+          target="_blank"
+          rel="noopener"
           onClick={playNavSound}
         >
           <div className="flex items-center gap-2.5">
