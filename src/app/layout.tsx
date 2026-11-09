@@ -9,6 +9,7 @@ import "../index.css";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
+  metadataBase: new URL("https://gsabouzeid-portfolio.vercel.app"),
   title: {
     template: "%s | Garrett Abou-Zeid's Portfolio",
     default: "Garrett Abou-Zeid's Portfolio",
@@ -30,11 +31,18 @@ export const metadata: Metadata = {
   ],
   creator: "Garrett Abou-Zeid",
   openGraph: {
+    type: "website",
     title: "Garrett Abou-Zeid's Portfolio",
     description:
       "Software developer specializing in frontend engineering. View my portfolio to learn about myself and my skills.",
     url: "https://gsabouzeid-portfolio.vercel.app",
     siteName: "Garrett Abou-Zeid's Portfolio",
+    images: [
+      {
+        url: "/og-image.png",
+        alt: "Garrett Abou-Zeid's Portfolio",
+      },
+    ],
   },
 };
 
