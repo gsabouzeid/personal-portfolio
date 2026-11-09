@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const t = useTranslations();
+  const t = useTranslations("skills");
 
   SKILLS.languages.sort((a, b) => a.name.localeCompare(b.name));
   SKILLS.frameworks.sort((a, b) => a.name.localeCompare(b.name));
@@ -20,11 +20,12 @@ export default function Page() {
 
   return (
     <div className="skillsContainer flex flex-col gap-3.75">
+      <h1 className="text-[30px] font-bold md:text-[40px]">{t("mySkills")}</h1>
       <div
         className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 0 } as React.CSSProperties}
       >
-        <h2 className="mb-5">{t("skills.languages")}</h2>
+        <h2 className="mb-5">{t("languages")}</h2>
         <div className="flex flex-wrap gap-3.75">
           {SKILLS.languages.map((lan) => (
             <SkillPill key={lan.name} skill={lan} />
@@ -35,7 +36,7 @@ export default function Page() {
         className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 1 } as React.CSSProperties}
       >
-        <h2 className="mb-5">{t("skills.librariesAndFrameworks")}</h2>
+        <h2 className="mb-5">{t("librariesAndFrameworks")}</h2>
         <div className="flex flex-wrap gap-3.75">
           {SKILLS.frameworks.map((fw) => (
             <SkillPill key={fw.name} skill={fw} />
@@ -46,7 +47,7 @@ export default function Page() {
         className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 2 } as React.CSSProperties}
       >
-        <h2 className="mb-5">{t("skills.testingAndQa")}</h2>
+        <h2 className="mb-5">{t("testingAndQa")}</h2>
         <div className="flex flex-wrap gap-3.75">
           {SKILLS.testing.map((fw) => (
             <SkillPill key={fw.name} skill={fw} />
@@ -57,7 +58,7 @@ export default function Page() {
         className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 3 } as React.CSSProperties}
       >
-        <h2 className="mb-5">{t("skills.tools")}</h2>
+        <h2 className="mb-5">{t("tools")}</h2>
         <div className="flex flex-wrap gap-3.75">
           {SKILLS.tools.map((tool) => (
             <SkillPill key={tool.name} skill={tool} />

@@ -42,6 +42,7 @@
     "picture2Alt": "Picture of Garrett Climbing"
   },
   "skills": {
+    "mySkills": "My Skills",
     "languages": "Languages",
     "librariesAndFrameworks": "Libraries & Frameworks",
     "testingAndQa": "Testing & QA",

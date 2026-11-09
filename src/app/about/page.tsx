@@ -27,13 +27,13 @@ export default function Page() {
         className="p-10 text-[15px] md:[&>p]:text-[20px]"
         data-aos="fade-left"
       >
-        <h2 className="pb-4 text-center text-[30px] font-bold md:text-[40px]">
+        <h1 className="pb-4 text-center text-[30px] font-bold md:text-[40px]">
           {t.rich("section1Title", {
             highlight: (chunks) => (
               <span className="text-sky-400">{chunks}</span>
             ),
           })}
-        </h2>
+        </h1>
         <p className="mb-4">
           {t.rich("section1Description1", {
             highlight: (chunks) => (

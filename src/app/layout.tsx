@@ -9,9 +9,33 @@ import "../index.css";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
-  title: "Garrett's Portfolio",
+  title: {
+    template: "%s | Garrett's Portfolio",
+    default: "Garrett's Portfolio",
+  },
   description:
     "Software developer specializing in frontend engineering. View my portfolio to learn about myself and my skills.",
+  applicationName: "Garrett's Portfolio",
+  authors: [
+    { name: "Garrett", url: "https://www.linkedin.com/in/garrett-abouzeid/" },
+  ],
+  generator: "Next.js",
+  keywords: [
+    "Garrett Abou-Zeid",
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Frontend Engineer",
+    "Portfolio",
+  ],
+  creator: "Garrett Abou-Zeid",
+  openGraph: {
+    title: "Garrett's Portfolio",
+    description:
+      "Software developer specializing in frontend engineering. View my portfolio to learn about myself and my skills.",
+    url: "https://gsabouzeid-portfolio.vercel.app",
+    siteName: "Garrett's Portfolio",
+  },
 };
 
 // eslint-disable-next-line react-refresh/only-export-components
