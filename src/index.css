@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
 @theme {
   --animate-fade-in-top: fadeInFromTop 0.5s ease-out forwards;
 
@@ -29,8 +31,3 @@ body {
   background-color: #07232e;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}

@@ -36,7 +36,7 @@ export default function SiteShell({ children }: { children: React.ReactNode }) {
       <BackgroundParticles />
       <Nav onToggleNav={handleToggleNavigation} />
       <MobileNav toggleNav={toggleNav} onDismissToggle={handleDismissToggle} />
-      <section className="p-6.25">{children}</section>
+      <section className="flex flex-1 flex-col p-6.25">{children}</section>
       <Footer />
     </div>
   );

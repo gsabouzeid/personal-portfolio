@@ -22,7 +22,7 @@ export default function Page() {
     <div className="skillsContainer flex flex-col gap-3.75">
       <h1 className="text-[30px] font-bold md:text-[40px]">{t("mySkills")}</h1>
       <div
-        className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
+        className="animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 0 } as React.CSSProperties}
       >
         <h2 className="mb-5">{t("languages")}</h2>
@@ -33,7 +33,7 @@ export default function Page() {
         </div>
       </div>
       <div
-        className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
+        className="animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 1 } as React.CSSProperties}
       >
         <h2 className="mb-5">{t("librariesAndFrameworks")}</h2>
@@ -44,7 +44,7 @@ export default function Page() {
         </div>
       </div>
       <div
-        className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
+        className="animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 2 } as React.CSSProperties}
       >
         <h2 className="mb-5">{t("testingAndQa")}</h2>
@@ -55,7 +55,7 @@ export default function Page() {
         </div>
       </div>
       <div
-        className="categoryContainer animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
+        className="animate-fade-in-top rounded-xl bg-black/75 p-5 opacity-0 [animation-delay:calc(var(--i)*0.2s)]"
         style={{ "--i": 3 } as React.CSSProperties}
       >
         <h2 className="mb-5">{t("tools")}</h2>

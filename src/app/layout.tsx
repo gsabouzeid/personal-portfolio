@@ -3,6 +3,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
+import { ThemeProvider } from "next-themes";
 import AOSInit from "../components/aos-init";
 import SiteShell from "../components/layout/site-shell";
 import "../index.css";
@@ -68,14 +69,16 @@ export default async function RootLayout({
   const locale = await getLocale();
 
   return (
-    <html lang={locale}>
       <body>
+    <html lang={locale} suppressHydrationWarning>
         <div id="root">
           <AOSInit />
           <Analytics />
           <SpeedInsights />
           <NextIntlClientProvider>
-            <SiteShell>{children}</SiteShell>
+            <ThemeProvider enableSystem={true} defaultTheme="system">
+              <SiteShell>{children}</SiteShell>
+            </ThemeProvider>
           </NextIntlClientProvider>
         </div>
       </body>
