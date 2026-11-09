@@ -3,9 +3,9 @@ import { useTranslations } from "next-intl";
 
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
-  title: "Home | Garrett's Portfolio",
+  title: "Home | Garrett Abou-Zeid's Portfolio",
   description:
-    "Welcome to Garrett's personal portfolio website. Explore his story and skills as a frontend software developer.",
+    "Welcome to Garrett Abou-Zeid's personal portfolio website. Explore his story and skills as a frontend software developer.",
 };
 
 export default function Page() {

@@ -7,7 +7,7 @@ import { SKILLS } from "../../constants";
 export const metadata: Metadata = {
   title: "Skills",
   description:
-    "Explore Garrett's skills in programming languages, libraries, frameworks, testing, and tools. Discover his expertise and proficiency in various technologies.",
+    "Explore Garrett Abou-Zeid's skills in programming languages, libraries, frameworks, testing, and tools. Discover his expertise and proficiency in various technologies.",
 };
 
 export default function Page() {

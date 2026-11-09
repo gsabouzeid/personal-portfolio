@@ -10,12 +10,12 @@ import "../index.css";
 // eslint-disable-next-line react-refresh/only-export-components
 export const metadata: Metadata = {
   title: {
-    template: "%s | Garrett's Portfolio",
-    default: "Garrett's Portfolio",
+    template: "%s | Garrett Abou-Zeid's Portfolio",
+    default: "Garrett Abou-Zeid's Portfolio",
   },
   description:
     "Software developer specializing in frontend engineering. View my portfolio to learn about myself and my skills.",
-  applicationName: "Garrett's Portfolio",
+  applicationName: "Garrett Abou-Zeid's Portfolio",
   authors: [
     { name: "Garrett", url: "https://www.linkedin.com/in/garrett-abouzeid/" },
   ],
@@ -30,11 +30,11 @@ export const metadata: Metadata = {
   ],
   creator: "Garrett Abou-Zeid",
   openGraph: {
-    title: "Garrett's Portfolio",
+    title: "Garrett Abou-Zeid's Portfolio",
     description:
       "Software developer specializing in frontend engineering. View my portfolio to learn about myself and my skills.",
     url: "https://gsabouzeid-portfolio.vercel.app",
-    siteName: "Garrett's Portfolio",
+    siteName: "Garrett Abou-Zeid's Portfolio",
   },
 };
 
