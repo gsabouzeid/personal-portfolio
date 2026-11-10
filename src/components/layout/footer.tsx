@@ -10,12 +10,12 @@ const Footer = () => {
   const t = useTranslations();
 
   return (
-    <footer className="flex flex-col items-center justify-between gap-3 bg-black/75 p-5 md:flex-row md:gap-6.25">
+    <footer className="flex flex-col items-center justify-between gap-3 bg-slate-300/90 p-5 md:flex-row md:gap-6.25 dark:bg-black/75">
       <p>{t("footer.createdAndMaintained")}</p>
       <p>{t("footer.copyrightNotice")}</p>
       <div className="flex gap-6.25 md:m-0">
         <a
-          className="text-white hover:text-sky-400 active:text-sky-300"
+          className="hover:text-sky-700 active:text-sky-900 dark:hover:text-sky-400 dark:active:text-sky-300"
           href={`mailto:${EMAIL}`}
           aria-label={t("footer.emailScreenReader")}
           onClick={playNavSound}
@@ -23,7 +23,7 @@ const Footer = () => {
           <EnvelopeFill />
         </a>
         <a
-          className="text-white hover:text-sky-400 active:text-sky-300"
+          className="hover:text-sky-700 active:text-sky-900 dark:hover:text-sky-400 dark:active:text-sky-300"
           href={GITHUB_LINK}
           target="_blank"
           rel="noreferrer"
@@ -33,7 +33,7 @@ const Footer = () => {
           <Github />
         </a>
         <a
-          className="text-white hover:text-sky-400 active:text-sky-300"
+          className="hover:text-sky-700 active:text-sky-900 dark:hover:text-sky-400 dark:active:text-sky-300"
           href={LINKEDIN_LINK}
           target="_blank"
           rel="noreferrer"

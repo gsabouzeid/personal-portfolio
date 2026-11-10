@@ -74,5 +74,9 @@
     "click": "Haz clic",
     "here": "aquí",
     "toReturn": "para volver al inicio."
+  },
+  "theme": {
+    "switchToLight": "Cambiar al tema claro",
+    "switchToDark": "Cambiar al tema oscuro"
   }
 }

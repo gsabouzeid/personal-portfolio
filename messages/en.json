@@ -74,5 +74,9 @@
     "click": "Click",
     "here": "here",
     "toReturn": "to return home."
+  },
+  "theme": {
+    "switchToLight": "Switch to light theme",
+    "switchToDark": "Switch to dark theme"
   }
 }

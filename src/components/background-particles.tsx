@@ -1,6 +1,7 @@
 import { type Engine, type ISourceOptions } from "@tsparticles/engine";
 import Particles, { ParticlesProvider } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import { useTheme } from "next-themes";
 import { memo } from "react";
 
 const particlesInit = async (engine: Engine): Promise<void> => {
@@ -8,6 +9,8 @@ const particlesInit = async (engine: Engine): Promise<void> => {
 };
 
 const BackgroundParticles = () => {
+  const { resolvedTheme } = useTheme();
+
   const options: ISourceOptions = {
     key: "absorbers",
     name: "Absorbers",
@@ -21,7 +24,7 @@ const BackgroundParticles = () => {
       paint: {
         fill: {
           color: {
-            value: "#f0f0f0",
+            value: resolvedTheme === "dark" ? "#f0f0f0" : "#0369a1",
           },
           enable: true,
         },

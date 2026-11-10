@@ -12,7 +12,7 @@ export default function NotFound() {
         {t("click")}{" "}
         <Link
           href="/"
-          className="text-sky-400 hover:underline active:text-sky-300"
+          className="text-sky-700 hover:underline active:text-sky-900 dark:text-sky-400 dark:active:text-sky-300"
         >
           {t("here")}
         </Link>{" "}

@@ -13,7 +13,7 @@ const SkillPill = ({ skill }: SkillProps) => {
   const image = skill.image;
 
   return (
-    <div className="skillPill flex items-center gap-2.5 rounded-3xl bg-white px-5 text-black transition-transform duration-300 ease-in-out hover:scale-110">
+    <div className="skillPill flex items-center gap-2.5 rounded-3xl bg-slate-300 px-5 text-slate-900 transition-transform duration-300 ease-in-out hover:scale-110 dark:bg-slate-100">
       <Image src={image.src} width={25} height={25} alt={t(image.altText)} />
       <p className="my-4">{name}</p>
     </div>

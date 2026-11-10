@@ -52,11 +52,11 @@ export const viewport: Viewport = {
   themeColor: [
     {
       media: "(prefers-color-scheme: dark)",
-      color: "#07232e",
+      color: "#083344",
     },
     {
       media: "(prefers-color-scheme: light)",
-      color: "#07232e",
+      color: "#e2e8f0",
     },
   ],
 };
@@ -69,14 +69,18 @@ export default async function RootLayout({
   const locale = await getLocale();
 
   return (
-      <body>
     <html lang={locale} suppressHydrationWarning>
+      <body className="bg-slate-200 text-slate-900 dark:bg-cyan-950 dark:text-white">
         <div id="root">
           <AOSInit />
           <Analytics />
           <SpeedInsights />
           <NextIntlClientProvider>
-            <ThemeProvider enableSystem={true} defaultTheme="system">
+            <ThemeProvider
+              attribute="data-theme"
+              enableSystem
+              defaultTheme="system"
+            >
               <SiteShell>{children}</SiteShell>
             </ThemeProvider>
           </NextIntlClientProvider>

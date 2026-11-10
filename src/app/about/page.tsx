@@ -30,33 +30,37 @@ export default function Page() {
         <h1 className="pb-4 text-center text-[30px] font-bold md:text-[40px]">
           {t.rich("section1Title", {
             highlight: (chunks) => (
-              <span className="text-sky-400">{chunks}</span>
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
             ),
           })}
         </h1>
         <p className="mb-4">
           {t.rich("section1Description1", {
             highlight: (chunks) => (
-              <span className="text-sky-400">{chunks}</span>
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
             ),
           })}
         </p>
         <p className="mb-4">
           {t.rich("section1Description2", {
             university: (chunks) => (
-              <span className="text-sky-400">{chunks}</span>
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
             ),
-            degree: (chunks) => <span className="text-sky-400">{chunks}</span>,
-            role: (chunks) => <span className="text-sky-400">{chunks}</span>,
+            degree: (chunks) => (
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
+            ),
+            role: (chunks) => (
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
+            ),
           })}
         </p>
-        <ul className="mb-4 ml-4 list-disc pl-5 text-[15px] text-sky-400 md:text-[20px]">
+        <ul className="mb-4 ml-4 list-disc pl-5 text-[15px] text-sky-700 dark:text-sky-400 md:text-[20px]">
           <li>{t("skill1")}</li>
           <li>{t("skill2")}</li>
           <li>{t("skill3")}</li>
         </ul>
         <p className="mb-4">{t("expertiseIn")}</p>
-        <ul className="ml-4 list-disc pl-5 text-[15px] text-sky-400 md:text-[20px]">
+        <ul className="ml-4 list-disc pl-5 text-[15px] text-sky-700 dark:text-sky-400 md:text-[20px]">
           <li>{t("skill4")}</li>
           <li>{t("skill5")}</li>
           <li>{t("skill6")}</li>
@@ -72,7 +76,7 @@ export default function Page() {
         <p className="mb-4">
           {t.rich("section2Description1", {
             highlight: (chunks) => (
-              <span className="text-sky-400">{chunks}</span>
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
             ),
           })}
         </p>
@@ -83,7 +87,7 @@ export default function Page() {
         <p className="mb-4">
           {t.rich("section2Description2", {
             highlight: (chunks) => (
-              <span className="text-sky-400">{chunks}</span>
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
             ),
           })}
         </p>
@@ -93,7 +97,7 @@ export default function Page() {
         <p className="mb-4">
           {t.rich("section2Description3", {
             highlight: (chunks) => (
-              <span className="text-sky-400">{chunks}</span>
+              <span className="text-sky-700 dark:text-sky-400">{chunks}</span>
             ),
           })}
         </p>

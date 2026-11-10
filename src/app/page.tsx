@@ -14,7 +14,9 @@ export default function Page() {
   return (
     <div className="flex flex-1 flex-col justify-center text-center">
       <h1 className="mb-5 text-5xl md:text-7xl">{t("title")}</h1>
-      <p className="text-2xl text-sky-400 md:text-3xl">{t("subTitle")}</p>
+      <p className="text-2xl text-sky-700 dark:text-sky-400 md:text-3xl">
+        {t("subTitle")}
+      </p>
     </div>
   );
 }
