@@ -4,10 +4,22 @@
 
 @theme {
   --animate-fade-in-top: fadeInFromTop 0.5s ease-out forwards;
+  --animate-fade-in-bottom: fadeInFromBottom 0.5s ease-out forwards;
 
   @keyframes fadeInFromTop {
     0% {
       transform: translateY(-20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInFromBottom {
+    0% {
+      transform: translateY(20px);
       opacity: 0;
     }
     100% {

@@ -13,8 +13,16 @@ export default function Page() {
 
   return (
     <div className="flex flex-1 flex-col justify-center text-center">
-      <h1 className="mb-5 text-5xl md:text-7xl">{t("title")}</h1>
-      <p className="text-2xl text-sky-700 dark:text-sky-400 md:text-3xl">
+      <h1
+        className="animate-fade-in-top opacity-0 mb-5 text-5xl [animation-delay:calc(var(--i)*0.2s)] md:text-7xl"
+        style={{ "--i": 0 } as React.CSSProperties}
+      >
+        {t("title")}
+      </h1>
+      <p
+        className="animate-fade-in-bottom opacity-0 text-2xl text-sky-700 [animation-delay:calc(var(--i)*0.2s)] md:text-3xl dark:text-sky-400"
+        style={{ "--i": 1 } as React.CSSProperties}
+      >
         {t("subTitle")}
       </p>
     </div>
