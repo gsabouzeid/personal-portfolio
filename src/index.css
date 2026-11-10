@@ -2,15 +2,6 @@
 
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
-:root,
-[data-theme="light"] {
-  --foreground: #102a36;
-}
-
-[data-theme="dark"] {
-  --foreground: #ffffff;
-}
-
 @theme {
   --animate-fade-in-top: fadeInFromTop 0.5s ease-out forwards;
 
@@ -29,9 +20,6 @@
 html,
 body,
 #root {
-  margin: 0;
-  padding: 0;
-  color: var(--foreground);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   height: 100%;
 }
