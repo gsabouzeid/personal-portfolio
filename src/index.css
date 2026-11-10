@@ -3,8 +3,8 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @theme {
-  --animate-fade-in-top: fadeInFromTop 0.5s ease-out forwards;
-  --animate-fade-in-bottom: fadeInFromBottom 0.5s ease-out forwards;
+  --animate-fade-in-top: fadeInFromTop 1s ease-out forwards;
+  --animate-fade-in-bottom: fadeInFromBottom 1s ease-out forwards;
 
   @keyframes fadeInFromTop {
     0% {
