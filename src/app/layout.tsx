@@ -45,6 +45,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  verification: {
+    google: "IeVs60FIHgIj6b1iiuE-TcZFuyXgDk9N70DoyP4OiUk",
+  },
 };
 
 // eslint-disable-next-line react-refresh/only-export-components
